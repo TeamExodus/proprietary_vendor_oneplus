@@ -41,8 +41,10 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/plutonium/proprietary/bin/rfs_access:/system/bin/rfs_access \
         vendor/oneplus/plutonium/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/oneplus/plutonium/proprietary/bin/usb_uicc_client:/system/bin/usb_uicc_client \
-        vendor/oneplus/plutonium/proprietary/lib64/librmnetctl.so:/system/lib64/librmnetctl.so \
+        vendor/oneplus/plutonium/proprietary/lib/libparam.so:/system/lib/libparam.so \
         vendor/oneplus/plutonium/proprietary/lib/librmnetctl.so:/system/lib/librmnetctl.so \
+        vendor/oneplus/plutonium/proprietary/lib64/libparam.so:/system/lib64/libparam.so \
+        vendor/oneplus/plutonium/proprietary/lib64/librmnetctl.so:/system/lib64/librmnetctl.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libconfigdb.so:/system/vendor/lib64/libconfigdb.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libdiag.so:/system/vendor/lib64/libdiag.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/lib-dplmedia.so:/system/vendor/lib64/lib-dplmedia.so \

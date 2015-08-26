@@ -205,6 +205,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/egl/libq3dtools_esx.so:/system/vendor/lib64/egl/libq3dtools_esx.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/egl/libQTapGLES.so:/system/vendor/lib64/egl/libQTapGLES.so \
         vendor/oneplus/plutonium/proprietary/bin/fm_qsoc_patches:/system/bin/fm_qsoc_patches \
+        vendor/oneplus/plutonium/proprietary/etc/firmware/tfa98xx.cnt:/system/etc/firmware/tfa98xx.cnt \
         vendor/oneplus/plutonium/proprietary/vendor/bin/audioflacapp:/system/vendor/bin/audioflacapp \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libacdb-fts.so:/system/vendor/lib/libacdb-fts.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \

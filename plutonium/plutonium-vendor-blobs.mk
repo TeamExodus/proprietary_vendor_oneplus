@@ -399,8 +399,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libOmxWmaDec.so:/system/vendor/lib/libOmxWmaDec.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libSHIMDivxDrm.so:/system/vendor/lib/libSHIMDivxDrm.so \
+        vendor/oneplus/plutonium/proprietary/bin/gpsone_daemon:/system/bin/gpsone_daemon \
         vendor/oneplus/plutonium/proprietary/bin/location-mq:/system/bin/location-mq \
         vendor/oneplus/plutonium/proprietary/bin/loc_launcher:/system/bin/loc_launcher \
+        vendor/oneplus/plutonium/proprietary/bin/lowi-server:/system/bin/lowi-server \
+        vendor/oneplus/plutonium/proprietary/bin/quipc_igsn:/system/bin/quipc_igsn \
         vendor/oneplus/plutonium/proprietary/etc/permissions/com.qualcomm.location.xml:/system/etc/permissions/com.qualcomm.location.xml \
         vendor/oneplus/plutonium/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/oneplus/plutonium/proprietary/lib64/libgps.utils.so:/system/lib64/libgps.utils.so \
@@ -408,6 +411,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/plutonium/proprietary/lib64/libloc_core.so:/system/lib64/libloc_core.so \
         vendor/oneplus/plutonium/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
         vendor/oneplus/plutonium/proprietary/lib64/libloc_eng.so:/system/lib64/libloc_eng.so \
+        vendor/oneplus/plutonium/proprietary/lib64/hw/gps.default.so:/system/lib64/hw/gps.default.so \
+        vendor/oneplus/plutonium/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/hw/flp.default.so:/system/vendor/lib64/hw/flp.default.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libalarmservice_jni.so:/system/vendor/lib64/libalarmservice_jni.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libgeofence.so:/system/vendor/lib64/libgeofence.so \
@@ -435,13 +440,20 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libxtadapter.so:/system/vendor/lib/libxtadapter.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:/system/vendor/lib/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:/system/vendor/lib/libxtwifi_zpp_adaptor.so \
+        vendor/oneplus/plutonium/proprietary/bin/quipc_main:/system/bin/quipc_main \
+        vendor/oneplus/plutonium/proprietary/bin/xtwifi-inet-agent:/system/bin/xtwifi-inet-agent \
+        vendor/oneplus/plutonium/proprietary/bin/xtwifi-client:/system/bin/xtwifi-client \
+        vendor/oneplus/plutonium/proprietary/vendor/bin/slim_ap_daemon:/system/vendor/bin/slim_ap_daemon \
         vendor/oneplus/plutonium/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/oneplus/plutonium/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/oneplus/plutonium/proprietary/bin/radish:/system/bin/radish \
+        vendor/oneplus/plutonium/proprietary/bin/rild:/system/bin/rild \
         vendor/oneplus/plutonium/proprietary/bin/rfs_access:/system/bin/rfs_access \
         vendor/oneplus/plutonium/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/oneplus/plutonium/proprietary/etc/permissions/qcnvitems.xml:/system/etc/permissions/qcnvitems.xml \
         vendor/oneplus/plutonium/proprietary/etc/permissions/qcrilhook.xml:/system/etc/permissions/qcrilhook.xml \
+        vendor/oneplus/plutonium/proprietary/lib/libril.so:/system/lib/libril.so \
+        vendor/oneplus/plutonium/proprietary/lib64/libril.so:/system/lib64/libril.so \
         vendor/oneplus/plutonium/proprietary/lib64/librmnetctl.so:/system/lib64/librmnetctl.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libmdmdetect.so:/system/vendor/lib64/libmdmdetect.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
@@ -454,7 +466,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/plutonium/proprietary/etc/firmware/tp/14049/14049_FW_S1302.img:/system/etc/firmware/tp/14049/14049_FW_S1302.img \
         vendor/oneplus/plutonium/proprietary/etc/firmware/tp/14049/14049_FW_S3320_jdi.img:/system/etc/firmware/tp/14049/14049_FW_S3320_jdi.img \
         vendor/oneplus/plutonium/proprietary/lib/hw/wbc_hal.default.so:/system/lib/hw/wbc_hal.default.so \
-        vendor/oneplus/plutonium/proprietary/lib64/hw/sensors.hal.tof.so:/system/lib64/hw/sensors.hal.tof.so \
         vendor/oneplus/plutonium/proprietary/lib64/hw/wbc_hal.default.so:/system/lib64/hw/wbc_hal.default.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/hw/sensors.msm8994.so:/system/vendor/lib/hw/sensors.msm8994.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/hw/sensors.msm8994.so:/system/vendor/lib64/hw/sensors.msm8994.so \

@@ -399,47 +399,35 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libOmxWmaDec.so:/system/vendor/lib/libOmxWmaDec.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libSHIMDivxDrm.so:/system/vendor/lib/libSHIMDivxDrm.so \
-        vendor/oneplus/plutonium/proprietary/bin/gpsone_daemon:/system/bin/gpsone_daemon \
         vendor/oneplus/plutonium/proprietary/bin/location-mq:/system/bin/location-mq \
         vendor/oneplus/plutonium/proprietary/bin/loc_launcher:/system/bin/loc_launcher \
-        vendor/oneplus/plutonium/proprietary/bin/lowi-server:/system/bin/lowi-server \
         vendor/oneplus/plutonium/proprietary/bin/quipc_igsn:/system/bin/quipc_igsn \
         vendor/oneplus/plutonium/proprietary/etc/permissions/com.qualcomm.location.xml:/system/etc/permissions/com.qualcomm.location.xml \
-        vendor/oneplus/plutonium/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
-        vendor/oneplus/plutonium/proprietary/lib64/libgps.utils.so:/system/lib64/libgps.utils.so \
-        vendor/oneplus/plutonium/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
-        vendor/oneplus/plutonium/proprietary/lib64/libloc_core.so:/system/lib64/libloc_core.so \
-        vendor/oneplus/plutonium/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
-        vendor/oneplus/plutonium/proprietary/lib64/libloc_eng.so:/system/lib64/libloc_eng.so \
-        vendor/oneplus/plutonium/proprietary/lib64/hw/gps.default.so:/system/lib64/hw/gps.default.so \
-        vendor/oneplus/plutonium/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/hw/flp.default.so:/system/vendor/lib64/hw/flp.default.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libalarmservice_jni.so:/system/vendor/lib64/libalarmservice_jni.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libgeofence.so:/system/vendor/lib64/libgeofence.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libizat_core.so:/system/vendor/lib64/libizat_core.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/liblbs_core.so:/system/vendor/lib64/liblbs_core.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/liblocationservice.so:/system/vendor/lib64/liblocationservice.so \
-        vendor/oneplus/plutonium/proprietary/vendor/lib64/libloc_ext.so:/system/vendor/lib64/libloc_ext.so \
-        vendor/oneplus/plutonium/proprietary/vendor/lib64/libloc_xtra.so:/system/vendor/lib64/libloc_xtra.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/liblowi_client.so:/system/vendor/lib64/liblowi_client.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libquipc_os_api.so:/system/vendor/lib64/libquipc_os_api.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libulp2.so:/system/vendor/lib64/libulp2.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libxtadapter.so:/system/vendor/lib64/libxtadapter.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:/system/vendor/lib64/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:/system/vendor/lib64/libxtwifi_zpp_adaptor.so \
-        vendor/oneplus/plutonium/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libalarmservice_jni.so:/system/vendor/lib/libalarmservice_jni.so \
+        vendor/oneplus/plutonium/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/liblocationservice.so:/system/vendor/lib/liblocationservice.so \
-        vendor/oneplus/plutonium/proprietary/vendor/lib/libloc_ext.so:/system/vendor/lib/libloc_ext.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/liblowi_client.so:/system/vendor/lib/liblowi_client.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libquipc_os_api.so:/system/vendor/lib/libquipc_os_api.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libulp2.so:/system/vendor/lib/libulp2.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libxtadapter.so:/system/vendor/lib/libxtadapter.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:/system/vendor/lib/libxtwifi_ulp_adaptor.so \
         vendor/oneplus/plutonium/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:/system/vendor/lib/libxtwifi_zpp_adaptor.so \
+        vendor/oneplus/plutonium/proprietary/bin/lowi-server:/system/bin/lowi-server \
         vendor/oneplus/plutonium/proprietary/bin/quipc_main:/system/bin/quipc_main \
         vendor/oneplus/plutonium/proprietary/bin/xtwifi-inet-agent:/system/bin/xtwifi-inet-agent \
         vendor/oneplus/plutonium/proprietary/bin/xtwifi-client:/system/bin/xtwifi-client \

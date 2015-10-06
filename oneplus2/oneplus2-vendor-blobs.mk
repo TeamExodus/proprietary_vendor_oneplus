@@ -521,7 +521,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprintsecurity.b02:/system/etc/firmware/fingerprintsecurity.b02 \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprintsecurity.b03:/system/etc/firmware/fingerprintsecurity.b03 \
         vendor/oneplus/oneplus2/proprietary/etc/firmware/fingerprintsecurity.mdt:/system/etc/firmware/fingerprintsecurity.mdt \
-        vendor/oneplus/oneplus2/proprietary/lib/hw/fingerprint.msm8994.so:/system/lib/hw/fingerprint.msm8994.so \
         vendor/oneplus/oneplus2/proprietary/lib64/libqseecom_fingerprints_client.so:/system/lib64/libqseecom_fingerprints_client.so \
         vendor/oneplus/oneplus2/proprietary/lib/libqseecom_fingerprints_client.so:/system/lib/libqseecom_fingerprints_client.so \
         vendor/oneplus/oneplus2/proprietary/vendor/lib64/libqfp-service.so:/system/vendor/lib64/libqfp-service.so \
